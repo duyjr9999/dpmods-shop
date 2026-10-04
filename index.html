@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>DPMOD - Shop Cửa Hàng Trực Tuyến</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, sans-serif; background-color: #0f172a; color: #ffffff; padding-bottom: 80px; }
+        header { background: #1e293b; padding: 20px; text-align: center; font-size: 24px; font-weight: bold; color: #0084ff; border-bottom: 1px solid #334155; }
+        .container { max-width: 900px; margin: 20px auto; padding: 0 15px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; }
+        .card { background: #1e293b; border-radius: 10px; overflow: hidden; border: 1px solid #334155; text-align: center; padding-bottom: 12px; }
+        .card img { width: 100%; height: 130px; object-fit: cover; background: #334155; }
+        .title { font-size: 14px; font-weight: 600; margin: 10px 5px 5px; }
+        .price { color: #ff4757; font-weight: bold; font-size: 15px; margin-bottom: 10px; }
+        .btn { display: inline-block; background: #0084ff; color: #fff; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 13px; }
+        .zalo-btn { position: fixed; bottom: 20px; right: 20px; background: #0084ff; color: white; padding: 12px 20px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+    </style>
+</head>
+<body>
+    <header>DPMOD SHOP</header>
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200/1e293b/0084ff?text=DPMOD+1" alt="SP1">
+                <div class="title">Gói Dịch Vụ 1</div>
+                <div class="price">50.000đ</div>
+                <a href="https://zalo.me/0987201932" target="_blank" class="btn">MUA NGAY</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200/1e293b/0084ff?text=DPMOD+2" alt="SP2">
+                <div class="title">Gói Dịch Vụ 2</div>
+                <div class="price">100.000đ</div>
+                <a href="https://zalo.me/0987201932" target="_blank" class="btn">MUA NGAY</a>
+            </div>
+        </div>
+    </div>
+    <a href="https://zalo.me/0987201932" target="_blank" class="zalo-btn">💬 Chat Zalo</a>
+</body>
+</html>
